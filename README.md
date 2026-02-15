@@ -107,3 +107,21 @@ LESSON
 SharePoint security maturity directly reflects IAM governance maturity.
 
 Collaboration risk is identity risk.
+
+
+
+
+------------------------------------------------------------
+ARCHITECTURE: IAM-DRIVEN SHAREPOINT MODEL
+------------------------------------------------------------
+
+```mermaid
+flowchart TD
+A[HR System] --> B[Entra Security Groups]
+B --> C[Microsoft 365 Groups]
+C --> D[SharePoint Site Roles]
+D --> E[Document Libraries]
+E --> F[Folders / Files]
+
+G[Quarterly Access Review] --> B
+H[Executive Reporting] --> G
