@@ -110,19 +110,22 @@ Collaboration risk is identity risk.
 
 ---
 
-## Architecture: IAM-Driven SharePoint Model
+## Architecture Overview (Conceptual Model)
 
-```mermaid
-flowchart TD
-A[HR System] --> B[Entra Security Groups]
-B --> C[Microsoft 365 Groups]
-C --> D[SharePoint Site Roles]
-D --> E[Document Libraries]
-E --> F[Folders / Files]
+HR System  
+↓  
+Entra Security Groups  
+↓  
+Microsoft 365 Groups  
+↓  
+SharePoint Site Roles  
+↓  
+Document Libraries  
+↓  
+Folders / Files  
 
-G[Quarterly Access Review] --> B
-H[Executive Reporting] --> G
-```
+Quarterly Access Review → Entra Security Groups  
+Executive Reporting → Quarterly Access Review  
 
 ---
 
