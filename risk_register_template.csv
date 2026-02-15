@@ -1,0 +1,5 @@
+Risk_ID,Domain,Risk_Description,Likelihood(1-5),Impact(1-5),Inherent_Risk,Existing_Control,Residual_Risk,Control_Owner,Remediation_Action,Target_Date,Status
+R-001,Access Control,Privileged accounts not reviewed quarterly,4,5,20,Quarterly Access Certification,12,IAM Manager,Automate access review workflow,2026-06-30,Open
+R-002,Vendor Risk,No formal vendor tiering process,3,4,12,Ad hoc vendor review,8,Security Lead,Implement vendor criticality matrix,2026-05-15,In Progress
+R-003,Logging & Monitoring,SIEM alerts not formally reviewed,3,5,15,Daily SOC monitoring,9,Security Operations Lead,Define alert escalation SOP,2026-04-30,Open
+R-004,Incident Response,No annual tabletop exercise conducted,2,4,8,IR Plan documented,6,IT Director,Schedule tabletop simulation,2026-07-01,Planned
