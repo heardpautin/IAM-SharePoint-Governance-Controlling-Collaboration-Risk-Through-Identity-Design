@@ -125,3 +125,9 @@ E --> F[Folders / Files]
 
 G[Quarterly Access Review] --> B
 H[Executive Reporting] --> G
+
+
+## Project Artifacts
+
+- Risk Register Template → risk_register_template.csv
+- Executive Dashboard Example → executive_dashboard_metrics.md
